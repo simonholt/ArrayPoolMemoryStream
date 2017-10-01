@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netcoreapp2.0;net461</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.10.9" />
+    <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" Version="1.2.2" />
+    <PackageReference Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.10.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sh.ArrayPoolMemoryStream\Sh.ArrayPoolMemoryStream.csproj" />
+  </ItemGroup>
+  
+</Project>
